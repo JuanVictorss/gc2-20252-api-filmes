@@ -7,7 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Realiza o clone do repositório e muda para branch correta (checkout)
-        run: git clone .... && git checkout main
         uses: actions/checkout@v5
 
       - name: Instalar o node
