@@ -14,5 +14,8 @@ jobs:
         with:
           node-version: 22
 
-      - name: Instalar as dependencias de execuçãi
+      - name: Instalar as dependencias de execução
         run: npm install
+
+      - name: Executar testes
+        run: npm test
