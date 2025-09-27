@@ -14,6 +14,6 @@ describe("Testes de API", () => {
         const app = getApp()
         const response = await request(app).get('/api/filmes')
 
-        expect(response.statusCode).toBe(400)
+        expect(response.statusCode).toBe(200)
     })    
 })
